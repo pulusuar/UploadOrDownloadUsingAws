@@ -29,7 +29,7 @@ load_dotenv()
 #name of the file
 file_name = 'userdata1.parquet'
 #name of the bucket
-bucket_name = 'sample-s3-bucket-to-fetch-files-from'
+bucket_name = 'your bucket name'
 
 download_file_from_s3(bucket_name)
 
